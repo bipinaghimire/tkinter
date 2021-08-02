@@ -9,4 +9,5 @@ checkbutton.deselect()
 checkbutton.pack()
 
 mybutton = Button(root, text="show selection", command= show).pack()
+exitbutton = Button(root, text="ext", command= root.quit).pack()
 root.mainloop()
