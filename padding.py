@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+Font_tuple = ("Comic Sans MS", 20, "bold")
+root.configure(font=Font_tuple)
+myButton= Button(root, text="Click Me")
+myButton.pack()
+myButton1= Button(root, text="Click", state=DISABLED)
+myButton1.pack()
+myButton2= Button(root, text="Click", padx=100)
+myButton2.pack()
+myButton3= Button(root, text="Click", padx=100, pady=50)
+myButton3.pack()
+root.mainloop()

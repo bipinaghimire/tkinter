@@ -1,0 +1,13 @@
+from tkinter import *
+root = Tk()
+name= Label(root, text="Name")
+name.grid(row=0, column=0)
+a1= Entry(root)
+a1.grid(row =0, column = 1)
+password= Label(root, text="Password")
+password.grid(row=1, column=0)
+a2= Entry(root)
+a2.grid(row=1, column=1)
+submit= Button(root,text ="Submit")
+submit.grid(row=4, column=1)
+root.mainloop()
