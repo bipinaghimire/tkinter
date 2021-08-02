@@ -18,7 +18,7 @@ def forward(numbers):
     global forbutton
     global backbutton
     mylabel.grid_forget()
-    mylabel=Label(image=list[numbers-1])
+    mylabel = Label(image=list[numbers-1])
     forbutton = Button(root, text="next", command=lambda: forward(numbers+1))
     backbutton = Button(root, text="back", command=lambda: backward(numbers - 1))
     if numbers==4:
